@@ -139,6 +139,7 @@ button:hover {
 /* Using steps() instead of linear as a timing function to limit cpu usage */
 #battery.critical:not(.charging) {
     background-color: #000000;
+    color: #00ff00;
     color: #ff0000;
     /*
     animation-name: blink;
@@ -262,6 +263,11 @@ label:focus {
 #idle_inhibitor.activated {
     background-color: #ecf0f1;
     color: #2d3436;
+}
+
+#image.archlogo {
+    background-color: #000000;
+    padding: 4 4px;
 }
 
 #mpd {
